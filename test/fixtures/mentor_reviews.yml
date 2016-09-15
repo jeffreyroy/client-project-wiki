@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student_rating_of_mentor: 1
+  student_review_of_mentor: MyText
+
+two:
+  student_rating_of_mentor: 1
+  student_review_of_mentor: MyText
