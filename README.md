@@ -55,5 +55,3 @@
 ## Students
 * Students can see their commitments (booked appointments)
 * Students can privately provide feedback about appointments
-
-df

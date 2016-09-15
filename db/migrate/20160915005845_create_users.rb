@@ -4,10 +4,8 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :first_name
       t.string :last_name
       t.string :mobile
-      # t.string :email
       t.integer :current_phase
       t.string :pronouns
-      # t.string :password_hash
       t.string :photo_url
 
       t.timestamps
