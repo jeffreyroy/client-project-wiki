@@ -6,7 +6,6 @@ module SessionsHelper
   def mentor?
     return false if !current_user
     @mentor = Mentor.where(user_id: current_user.id)
-    p session[:user_id] == Mentor.where(user_id: @user.id)
     return true if @mentor.length > 0
     false
   end
