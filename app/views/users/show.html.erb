@@ -1,18 +1,16 @@
 <h1>User Profile</h1>
 <% if @current_user %>
 <table>
-  <tr><th>First Name:</th><td><%= @user.first_name %></td></tr>
-  <tr><th>Last Name:</th><td><%= @user.last_name %></td></tr>
+  <tr><th>First name:</th><td><%= @user.first_name %></td></tr>
+  <tr><th>Last name:</th><td><%= @user.last_name %></td></tr>
   <tr><th>Email:</th><td><%= @user.email %></td></tr>
   <tr><th>Mobile:</th><td><%= @user.mobile %></td></tr>
   <tr><th>Pronouns:</th><td><%= @user.pronouns %></td></tr>
   <tr><th>Role:</th><td>
   <%= 'Mentor' if @mentor || 'Student' if @student %>
   </td></tr>
-  <tr><th>Current_phase:</th><td><%= @user.current_phase %></td></tr>
+  <tr><th>Current phase:</th><td><%= @user.current_phase %></td></tr>
 </table>
-
-<p><%= link_to 'See Appointments', appointments_path %></p>
 
 <% else %>
 No current user.
