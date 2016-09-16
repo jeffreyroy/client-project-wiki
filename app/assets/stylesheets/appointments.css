@@ -4,28 +4,62 @@
   dispaly: flex;
 }
 
+.appointment-container h2 {
+  color: white;
+}
+
+.appointment-container h1 {
+  color: #2F972F;
+}
+
 .open-appointments {
   width: 30%;
   display: inline-block;
   vertical-align: text-top;
-  border: solid 1px black;
+  border: solid 1px white;
   margin: 10px;
+  border-radius: 1em;
+  background: #2F972F;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
 }
 
 .set-appointments {
   width: 30%;
   display: inline-block;
   vertical-align: text-top;
-  border: solid 1px black;
+  border: solid 1px white;
+  border-radius: 1em;
   margin: 10px;
+  background: #2F972F;
 }
 
 .complete-appointments {
   width: 30%;
   display: inline-block;
   vertical-align: text-top;
-  border: solid 1px black;
+  border: solid 1px white;
   margin: 10px;
+  border-radius: 1em;
+  background: #2F972F;
 }
 
 ul {

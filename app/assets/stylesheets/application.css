@@ -20,15 +20,17 @@ html, body {
   font-family: 'Roboto Condensed', arial;
   margin: 0;
   padding: 0;
+  background: #2F972F;
 }
 
 .container {
   margin: auto;
   padding: 2em;
   margin-top: 2em;
-  border: 1px solid gray;
+  border: 1px solid white;
   border-radius: 1em;
   width: 80%;
+  background: white;
 }
 
 input {
@@ -37,15 +39,15 @@ input {
 }
 
 #app-header {
-  background-color: gray;
+  background-color: white;
   margin: 0;
   padding: 0.5em;
-  color: white;
+  color: #2F972F;
   font-size: .8em;
 }
 
 #app-header a, #app-header h1 {
-  color: white;
+  color: #2F972F;
   margin: 0;
   padding: 0;
   text-decoration: none;
